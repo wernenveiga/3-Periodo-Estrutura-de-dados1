@@ -1,12 +1,12 @@
 /*
-Trabalho 8 - Questão 2
+Trabalho 8 - QuestÃ£o 2
 
-Autor:        Wernen da Silva Veiga – 15231615
-
-2. Cadastre 5 números em uma fila dinâmica e mais 5 em uma pilha dinâmica. Em seguida, mostre três relatórios.
-1º) os números que estão nas duas estruturas.
-2º) os que estão na fila.
-3º) os que estão na pilha.
+Autor:        Wernen da Silva Veiga â€“ 15231615
+Data 28/05/2017
+2. Cadastre 5 nÃºmeros em uma fila dinÃ¢mica e mais 5 em uma pilha dinÃ¢mica. Em seguida, mostre trÃªs relatÃ³rios.
+1Âº) os nÃºmeros que estÃ£o nas duas estruturas.
+2Âº) os que estÃ£o na fila.
+3Âº) os que estÃ£o na pilha.
  */
 #include<stdio.h>
 #include<stdlib.h>
@@ -79,7 +79,7 @@ int cadastrar_pilha(TPilha* pi, int num){
                     novo->dado = num;
                     novo->prox = pi->topo;
                     pi->topo = novo;
-                    //tamanho da pilha vai ser incrementado fora da função
+                    //tamanho da pilha vai ser incrementado fora da funÃ§Ã£o
             return pi->topo->dado;
 }
 void mostrar_pilha(TPilha *pi){
